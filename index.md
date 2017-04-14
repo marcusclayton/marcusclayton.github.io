@@ -1,3 +1,1 @@
-Hello World2
-
-{% include footer.html %}
+Hello World3
