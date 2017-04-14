@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="blog-index">
-  {% include posts/latest.html %}
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
   {% include post_detail.html %}
   {% include posts/archive.html %}
+  {% include posts/latest.html %}
 </div>
