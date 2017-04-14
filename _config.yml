@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: Automation Agenda
 description: Automation, Azure, and other things.
 show_downloads: true
+google_analytics: UA-97429750-1
