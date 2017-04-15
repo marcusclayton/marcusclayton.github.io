@@ -8,6 +8,7 @@ tags:
     - powershell
     - automation
     - azure
+author: marcus
 ---
 
 A simple example on getting started with Azure Automation DSC— registering your on-prem servers.

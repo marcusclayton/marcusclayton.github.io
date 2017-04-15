@@ -5,6 +5,7 @@ date: 2017-01-29
 tags:
     - azure
     - ARM
+author: marcus
 ---
 
 Add ARM VM to an availability set.
