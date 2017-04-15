@@ -2,6 +2,7 @@
 layout: default
 title: All Blog Posts
 ---
+
 # H1 {{ page.title }}
 
 {% for post in site.posts %}
