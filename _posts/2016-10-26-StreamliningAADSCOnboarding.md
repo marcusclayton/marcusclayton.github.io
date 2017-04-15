@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Third Post!"
+title: "Streamlining Azure Automation DSC Node Onboarding"
 date: 2017-04-16
 tags:
     - azureautomation
@@ -18,4 +18,3 @@ One of the biggest pain points when managing an on-prem DSC pull server is the c
 The onboarding experience for Azure IaaS VM’s is very straightforward. From within your automation account, you select “Add Azure VM”, select a single server from a list of eligible VMs, and you’re done. The machine is now ready to start pulling down DSC configurations which have been applied to it in the portal.
 
 {% include image name="01.png" caption="Azure VM Experience" %}
-
