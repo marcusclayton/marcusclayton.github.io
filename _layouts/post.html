@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
+{% assign author = site.authors[page.author] %}
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-<p class="meta">{% include author.md %}</p>
+<span class="author"><a href="https://github.com/{{ author.github }}">{{ author.display_name }}</span>
 <div class="post">
   {{ content | remove_first:page.excerpt }}
 </div>
