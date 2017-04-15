@@ -6,7 +6,8 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 <span>
 {% assign author = site.authors[page.author] %}
-Author: {{ author.display_name }} ![Author]({{ author.image }})
+Author: [{{ author.display_name }}]({{ https://github.com/{{ author.github }}}})
+![Author]({{ author.image }})
 </span>
 
 
