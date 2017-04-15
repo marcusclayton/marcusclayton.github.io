@@ -6,5 +6,6 @@
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
+{% assign author = site.authors[page.author] %}
 <span class="author">Author: <a href="https://github.com/{{ author.github }}">{{ author.display_name }}</a></span>
 <div class="entry-content">{{ content | remove_first:page.excerpt }}</div>
