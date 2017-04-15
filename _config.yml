@@ -3,7 +3,5 @@ title: Automation Agenda
 description: Automation, Azure, and other things.
 google_analytics: UA-97429750-1
 permalink: /blog/:year/:month/:day/:title
-include: ['_pages']
-relative_permalinks: false
 paginate:      10
 paginate_path: '/blog/page:num/'
