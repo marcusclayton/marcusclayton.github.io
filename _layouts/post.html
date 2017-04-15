@@ -4,7 +4,7 @@ layout: default
 {% assign author = site.authors[page.author] %}
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-<span class="author"><a href="https://github.com/{{ author.github }}">Author: {{ author.display_name }}</a></span>
+<span class="author">Author: <a href="https://github.com/{{ author.github }}">{{ author.display_name }}</a></span>
 <img src="{{ author.image }}">
 <br>
 <div class="post">
