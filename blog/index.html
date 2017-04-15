@@ -17,15 +17,15 @@ title: All Blog Posts
 
 
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-	<ul>
-{% if paginator.previous_page %}
-		<a href="/blog/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a> ---- 
-{% endif %}
+	<div class="pagination">
 
-{% if paginator.next_page %}
-		-- <a href="/blog/page{{ paginator.next_page }}">Next</a>
-{% endif %}
-	</ul>
-</div>
+	{% if paginator.previous_page %}
+			<a href="/blog/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a> ---- 
+	{% endif %}
+
+	{% if paginator.next_page %}
+			-- <a href="/blog/page{{ paginator.next_page }}">Next</a>
+	{% endif %}
+
+	</div>
 {% endif %}
