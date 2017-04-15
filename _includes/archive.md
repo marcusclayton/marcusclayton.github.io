@@ -1,1 +1,1 @@
-[ All Posts ]( /blog )
+[ More Posts ]( /blog )
