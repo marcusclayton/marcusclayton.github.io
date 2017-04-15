@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Streamlining Azure Automation DSC Node Onboarding"
-date: 2017-04-16
+date: 2016-10-26
 tags:
     - azureautomation
     - dsc
