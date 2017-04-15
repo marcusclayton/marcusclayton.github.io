@@ -1,1 +1,1 @@
-[ "All Posts" ]( "/blog" )
+[ All Posts ]( /blog )
