@@ -21,8 +21,10 @@ title: Blog Posts
 	<a href="/blog/page{{ paginator.next_page }}">Next</a>  >>
 {% endif %}
 <br>
+<br>
 {% if paginator.previous_page %}
-	<<  <a href="/blog/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a>
+<p>----</p>
+	<p><<  </p><a href="/blog/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a>
 {% endif %}
 
 
