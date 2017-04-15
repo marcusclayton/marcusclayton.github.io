@@ -22,10 +22,7 @@ title: All Blog Posts
 {% if paginator.previous_page %}
 		<a href="/blog/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a> ---- 
 {% endif %}
-		<a {% if paginator.page == 1 %}class="active" {% endif %}href="/blog/">1</a>
-{% for count in (2..paginator.total_pages) %}
-		-- <a {% if paginator.page == count %}class="active" {% endif %}href="/blog/page{{ count }}">{{ count }}</a>
-{% endfor %}
+
 {% if paginator.next_page %}
 		-- <a href="/blog/page{{ paginator.next_page }}">Next</a>
 {% endif %}
