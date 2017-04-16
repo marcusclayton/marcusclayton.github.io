@@ -6,9 +6,9 @@
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
-<h3>
+<h4>
     {% if author.display_name %}
     Author: <a href="https://github.com/{{ author.github }}">{{ author.display_name }}</a>
 {% endif %}
-</h3>
+</h4>
 <div class="entry-content">{{ content }}</div>
