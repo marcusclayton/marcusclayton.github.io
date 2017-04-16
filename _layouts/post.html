@@ -6,8 +6,10 @@ layout: default
 <p class="meta">
 {{ page.date | date_to_string }}
 <br>
-<h4>Author: <a href="https://github.com/{{ author.github }}">{{ author.display_name }}</a></h4>
-<img src="{{ author.image }}">
+<h4>Author: <img src="{{ author.image }}">
+<a href="https://github.com/{{ author.github }}">{{ author.display_name }}</a>
+</h4>
+
 </p>
 <p>
 <div class="post">
