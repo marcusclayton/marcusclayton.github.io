@@ -10,7 +10,7 @@ title: Blog Posts
 	{% for post in paginator.posts %}
 		<li>
 			<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				<br>{{ post.description }}
+				<br>{{ post.description }}<br>
 		</li>
 	{% endfor %}
 </ul>
