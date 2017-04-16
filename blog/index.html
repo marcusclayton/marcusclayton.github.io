@@ -9,8 +9,9 @@ title: Blog Posts
 
 	{% for post in paginator.posts %}
 		<li>
-			<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				<br>{{ post.description }}<br>
+			<pr><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				<br>{{ post.description }}
+			</p>
 		</li>
 	{% endfor %}
 </ul>
