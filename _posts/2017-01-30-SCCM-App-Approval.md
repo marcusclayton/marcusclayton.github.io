@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Modernizing SCCM Application Approval"
+description: Addinig an automation workflow to SCCM application requests
 date: 2017-01-30
 tags:
     - azure
     - ARM
 author: marcus
 ---
-
-Addinig an automation workflow to SCCM application requests
 
 As it stands, there are no native options within SCCM to allow for seamless application approval workflows. The ability to approve or deny an application request is surfaced within the SCCM console, and is traditionally managed by the SCCM administrator(s). A [3rd party solution existed](http://blog.coretech.dk/kea/coretech-application-e-mail-approval-tool/ "CoreTech") which helped fulfill this need, allowing a user’s manager to navigate to an internal (corp) website and approve or deny the request. The solution required the manager to be on the corp network, and was only customizable if the admin had a fairly decent understanding of asp.net programming.
 
